@@ -1,3 +1,4 @@
+
 body {
   font-family: "Montserrat";
   text-align: center;
@@ -7,16 +8,12 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold";
 }
 
-h2 {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
 p {
   color: #8f8f8f;
 }
 
 /* Headings */
+
 .big-heading {
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
@@ -28,14 +25,14 @@ p {
   line-height: 1.5;
 }
 
-/* Headings  END */
 /* Containers */
-.container-fluid {
-  padding: 7% 15% 7%;
+
+.container-fluid{
+  padding: 7% 15%;
 }
 
-/* Containers END*/
 /* Sections */
+
 .colored-section {
   background-color: #ff4c68;
   color: #fff;
@@ -45,8 +42,8 @@ p {
   background-color: #fff;
 }
 
-/* Sections END*/
 /* Navigation Bar */
+
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -66,14 +63,14 @@ p {
   font-family: "Montserrat-Light";
 }
 
-/* Navigation Bar END */
 /* Buttons */
+
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
-/* Buttons END*/
 /* Title Section */
+
 #title {
   background-color: #ff4c68;
   color: #fff;
@@ -84,8 +81,8 @@ p {
   padding: 3% 15% 7%;
 }
 
-/* Title Section END */
 /* Title Image */
+
 .title-image {
   width: 60%;
   transform: rotate(25deg);
@@ -93,11 +90,10 @@ p {
   right: 30%;
 }
 
-/* Title Image END*/
 /* Features Section */
+
 #features {
   position: relative;
-  padding: 7% 15%;
 }
 
 .feature-title {
@@ -117,47 +113,67 @@ p {
   color: #ff4c68;
 }
 
-/* Features Section END*/
-/* Testimonials Section */
+/* Testimonial Section */
+
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
 }
 
-.testimonial-img {
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
   width: 10%;
   border-radius: 100%;
+  margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
-.press-logos {
+.press-logo {
   width: 15%;
   margin: 20px 20px 50px;
 }
 
-/* Testimonials Section END */
 /* Pricing Section */
+
 #pricing {
   padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .pricing-column {
   padding: 3% 2%;
 }
 
-/* Pricing Section END*/
+/* CTA Section */
 
-@media (max-width : 1028px) {
-    .title-image{
-      position: static;
-    }
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }
